@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+
+body {
+	font-family: 'Bitcount Single', serif;
+	position: relative;
+	overflow: hidden;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(219390.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.4;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.darkBorder {
+	background-image: url('Screenshot 2026-06-18 213250.png');
+	left: -7px;
+	width: 110vw;
+	height: 100vh;
+	position: fixed;
+	opacity: 0.0;
+	z-index: 1;
+	overflow: hidden;
+	display: block;
+}
+
+.redBorder{
+		align-items: center;
+		font-size: 25pt;
+		cursor: pointer;
+		z-index: 999;
+		display: flex;
+		cursor: pointer;
+		position: absolute;
+		width: 150px;
+}
+
+h2 {
+	font-size: 40pt;
+	top: 5vh;
+	left: 30vw;
+	display: flex;
+	position: fixed;
+	z-index: 10;
+	color: turquoise;
+}
+
+.emailBorder {
+	position: absolute;
+	left: 40%;
+	top: -1%;
+	display: inline-block;
+	line-height: 0px;
+	z-index: 100;
+}
+
+h3 {
+	font-size: 25pt;
+	font-weight: normal;
+}
+
+.greenBorder {
+	position: absolute;
+	text-align: left;
+	margin-right: 68%;
+	z-index: 99;
+	top: 4%;
+	display: flex;
+	background-color: white;
+}
+
+.orangeBorder {
+	position: fixed;
+	top: 0%;
+	left: 90%;
+	font-size: 25pt;
+    display: inline-block;
+	line-height: 0px;
+	z-index: 100;
+}
+
+
+.moving-ball {
+	position: absolute;
+	width: 23%;
+	height: auto;
+	top: 25%;
+	left: 32%;
+	transition: all 5s linear;
+	z-index: 20;
+	opacity: 0.0;
+}
+
+.rotating-ball {
+	display: block;
+	animation: spin 0.3s linear infinite;
+	width: 23%;
+	height: auto;
+}
+ 
+.net {
+	position: absolute;
+	width: 37%;
+	height: 10%;
+	object-fit: cover;
+	top: 19%;
+	left: 5%;
+	z-index: 15;
+	opacity: 0.0;
+	rotate: 25deg;
+}
+
+.whiteBorder {
+	position: absolute;
+	background-color: white;
+	z-index: 10;
+	left: -5%;
+	width: 110vw;
+	top: -5%;
+	height: 12vh;
+	overflow: hidden;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.photo {
+	left: 40%;
+	top: 32%;
+	z-index: 999;
+	position: absolute;
+	width: 400px;
+	height; auto;
+}
+
+
+
+
+	
+
+
+	
+
+
